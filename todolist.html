@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px;"> Bible Passage to Study</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span class="addbtn" onclick="newElement()"> Add </span>  
+    </div>
+    <ul id="myUL">
+        <li> Genesis </li>
+        <li class="checked"> Leviticus</li>
+        <li> Judges </li>
+        <li> Malachai </li>
+        <li> Matthew</li>
+        <li> Revelation</li>
+    </ul>
+    <h2 style="margin: 5px; padding: 10px; width: 100%; text-align: center;">
+        If you will be interested in receiving routine messages <br>
+        kindly complete this form below.
+    </h2>
+    <form action="">
+        <label for="fname"> First Name</label>
+        <input type="text" id="fname" placeholder="First Name" name="firstname">
+        <label for="lname"> Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name">
+        <label for="country"> Country</label>
+        <select name="country" id=" country">
+            <option value="nigeria"> Nigeria</option>
+            <option value="ghana"> Ghana</option>
+            <option value="togo"> Togo</option>
+            <option value="Kenya"> Kenya</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
